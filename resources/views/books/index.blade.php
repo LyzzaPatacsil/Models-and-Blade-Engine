@@ -14,7 +14,7 @@
         @include('partials.header')
         
         <div class="container mx-auto px-2">
-            <h1 class="text-3xl font-bold mb-6 text-center">Book List</h1>
+            <h1 class="text-3xl font-bold mb-6 text-center text-violet-600">Book List</h1>
             <table class="w-full border-collapse border border-gray-300 rounded-lg overflow-hidden">
                 <thead>
                     <tr>
