@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+
+/* Custom styles */
+
+/* Make the header text bigger and change its color */
+.header-text {
+    font-size: 2.5rem; /* Adjust size as needed */
+    color: #8a4baf; /* Lilac purple color */
+}
+
+/* Add margin and border to table cells */
+.table-cell {
+    margin: 5px;
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+/* Add padding to table headers */
+.table-header {
+    padding: 10px;
+}
