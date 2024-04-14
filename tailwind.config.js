@@ -6,3 +6,5 @@ module.exports = {
     },
     plugins: [],
   }
+
+  /* Sir, d ko po maayos dito nag eerror lagi kaya nirekta ko na lng po sa package.json */

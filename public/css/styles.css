@@ -3,9 +3,6 @@
     margin:0;
  }
  
- 
- 
-
 
 .nav-bar {
     background-color: #9686b8; 
@@ -54,7 +51,7 @@ footer {
 }
 
 footer a {
-    color: #333; /* Set your desired text color */
+    color: #333; 
     text-decoration: none;
 }
 
