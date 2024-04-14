@@ -1,7 +1,19 @@
-<nav class="relative flex w-full flex-wrap items-center justify-between bg-lilac-purple py-6 shadow-dark-mild dark:bg-neutral-700 lg:py-8">
-    <div class="flex w-full flex-wrap items-center justify-between px-3">
-        <div class="ms-2">
-            <span class="text-4xl font-bold mb-8">LJ Book Shop</span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    
+    <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">LJ Book Library</span>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+</body>
+</html>

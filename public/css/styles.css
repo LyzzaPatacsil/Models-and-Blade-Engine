@@ -1,25 +1,63 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+
+ body{
+    margin:0;
+ }
+ 
+ 
+ 
 
 
-
-
-/* Custom styles */
-
-/* Make the header text bigger and change its color */
-.header-text {
-    font-size: 2.5rem; /* Adjust size as needed */
-    color: #8a4baf; /* Lilac purple color */
+.nav-bar {
+    background-color: #9686b8; 
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    color: #fff; 
+    font-size: 2rem;
 }
 
-/* Add margin and border to table cells */
-.table-cell {
-    margin: 5px;
-    border: 1px solid #ccc; /* Light gray border */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Add padding to table headers */
-.table-header {
-    padding: 10px;
+.nav-logo {
+    font-family: Century Gothic, sans-serif; 
+}
+
+
+
+
+
+th, td {
+    border: 1px solid #e5e7eb;
+    padding: 3rem; 
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.container{
+    margin: 2%;
+}
+
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9686b8; 
+}
+
+footer a {
+    color: #333; /* Set your desired text color */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

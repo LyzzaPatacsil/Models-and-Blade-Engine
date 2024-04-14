@@ -4,18 +4,12 @@
 
 
 
-.header-text {
-    font-size: 2.5rem; /* Adjust size as needed */
-    color: #8a4baf; /* Lilac purple color */
+/* styles.css */
+.nav-bar {
+    background-color: #8a4baf; /* Lilac purple background */
+    padding: 1.5rem; /* Adjust padding as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Mild shadow */
+    color: #fff; /* White text color */
+    font-size: 2rem; /* Adjust font size as needed */
 }
 
-/* Add margin and border to table cells */
-.table-cell {
-    margin: 5px;
-    border: 1px solid #ccc; /* Light gray border */
-}
-
-/* Add padding to table headers */
-.table-header {
-    padding: 10px;
-}

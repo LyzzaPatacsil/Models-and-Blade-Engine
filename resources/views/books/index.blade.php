@@ -10,7 +10,7 @@
 <body>
     @include('partials.header')
     
-    <div class="container mx-auto py-8">
+    <div class="container ">
         <h1 class="text-3xl font-bold mb-6">Book List</h1>
         <table class="w-full border-collapse border border-gray-300 rounded-lg overflow-hidden">
             <thead>
