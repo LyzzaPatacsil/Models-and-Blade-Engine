@@ -8,12 +8,13 @@
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
 </head>
 <body>
-    <nav class="nav-bar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <span class="logo-text">LJ Book Library</span>
+    <div class="nav-bar bg-purple-700 py-6 shadow-md text-white text-2xl">
+        <div class="container mx-auto">
+            <div class="nav-container">
+                <div class="font-sans font-semibold">LJ Book Library</div>
             </div>
         </div>
+    </div>
     </nav>
 </body>
 </html>

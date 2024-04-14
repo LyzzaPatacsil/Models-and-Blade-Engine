@@ -1,5 +1,4 @@
-
- body{
+/*body{
     margin:0;
  }
  
@@ -40,9 +39,9 @@ h1 {
 .container{
     margin: 2%;
 }
+*/
 
-
-/*Footer*/
+/*Footer
 footer {
     display: flex;
     justify-content: center;
@@ -57,4 +56,4 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
+}*/

@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "tailwindcss build ./src/styles.css -o ./public/css.styles/css --watch",
     "build:css": "tailwindcss build ./src/styles.css -o ./public/css/styles.css",
     "build": "vite build"
   },
